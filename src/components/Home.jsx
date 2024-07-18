@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home-inner">
           <div className="container">
             <div className="row">
-              <div className="col-lg-8 d-lg block">
+              <div className="headings col-lg-8 d-lg block">
                 <h1 className="display-4">Build <strong>social profiles</strong> and gain revenue & profits</h1>
                 <div className="d-flex flex-row">
                   <div className="p-4 align-self-start">
@@ -38,24 +38,24 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="col-lg-4">
+              <div className="headings col-lg-4">
                 <div className="card bg-primary text-center">
                   <div className="card-body">
-                    <h3>Sign Up Today</h3>
+                    <h3 className="text-light py-2">Sign Up Today</h3>
                     <form className="card-form">
-                      <div className="form-group">
+                      <div className="form-group my-2">
                         <input type="text" className="form-control form-control-lg" placeholder="Username" />
                       </div>
-                      <div className="form-group">
+                      <div className="form-group my-2">
                         <input type="email" className="form-control form-control-lg" placeholder="Email" />
                       </div>
-                      <div className="form-group">
+                      <div className="form-group my-2">
                         <input type="password" className="form-control form-control-lg" placeholder="Password" />
                       </div>
-                      <div className="form-group">
+                      <div className="form-group my-2">
                         <input type="password" className="form-control form-control-lg" placeholder="Confirm Password" />
                       </div>
-                      <input type="submit" value="Submit" className="btn btn-outline-light btn-block" />
+                      <input type="submit" value="Submit" className="btn btn-outline-light btn-block mt-2" />
                     </form>
                   </div>
                 </div>

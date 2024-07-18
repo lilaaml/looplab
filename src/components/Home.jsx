@@ -9,7 +9,7 @@ const Home = () => {
           <div className="container">
             <div className="row">
               <div className="headings col-lg-8 d-lg block">
-                <h1 className="display-4">Build <strong>social profiles</strong> and gain revenue & profits</h1>
+                <h1 className="display-6">Build <strong>social profiles</strong> and gain revenue & profits</h1>
                 <div className="d-flex flex-row">
                   <div className="p-4 align-self-start">
                     <FcCheckmark />
@@ -39,7 +39,7 @@ const Home = () => {
               </div>
 
               <div className="headings col-lg-4">
-                <div className="card bg-primary text-center">
+                <div className="card text-center">
                   <div className="card-body">
                     <h3 className="text-light py-2">Sign Up Today</h3>
                     <form className="card-form">

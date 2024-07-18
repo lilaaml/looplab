@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 .navbar {
     border-bottom: var(--accent-color) 3px solid;
     background-color: var(--primary-color);
@@ -9,6 +13,7 @@
     background: url('https://images.unsplash.com/photo-1721137287642-43b251bd6f00?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     width: 100%;
     color: var(--secondary-color);
 }
@@ -23,6 +28,90 @@
     padding: 6rem 0 3rem 0;
 }
 
+#home .card {
+    background-color: var(--accent-color);
+}
+
 #home .card-form {
     opacity: 0.8;
+}
+
+#about {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+}
+
+#about a {
+    border: var(--secondary-color) 1px solid;
+    color: var(--secondary-color);
+}
+
+#about a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#services {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+#industries {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+#industries a {
+    border: var(--secondary-color) 1px solid;
+    color: var(--secondary-color);
+}
+
+#industries a:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+
+#careers {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
+#careers a {
+    border: var(--secondary-color) 1px solid;
+    color: var(--secondary-color);
+}
+
+#careers a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#insights {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#insights a {
+    border: var(--primary-color) 1px solid;
+    color: var(--primary-color);
+}
+
+#insights a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#footer {
+    color: var(--secondary-color);
+}
+
+#footer .links > * {
+    margin: 1rem;
+}
+
+#footer .links > *:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }

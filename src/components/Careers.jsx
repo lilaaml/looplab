@@ -38,7 +38,9 @@ const Careers = () => {
             <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="services.png" className="img-fluid mb-3 rounded-circle" />
           </div>
         </div>
-        <a href="/" className="btn">Join Us</a>
+        <div className="text-center mt-3">
+          <a href="/" className="btn">Join Us</a>
+        </div>
       </div>
     </div>
   )

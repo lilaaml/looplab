@@ -5,7 +5,19 @@
 .navbar {
     border-bottom: var(--accent-color) 3px solid;
     background-color: var(--primary-color);
-    opacity: 0.8;
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color);
+}
+
+.dropdown-menu a {
+    color: var(--secondary-color);
+}
+
+.dropdown-menu a:hover {
+    color: var(--secondary-color);
+    background-color: #2c2c2c;
 }
 
 #home {
@@ -105,10 +117,6 @@
 
 #footer {
     color: var(--secondary-color);
-}
-
-#footer .links > * {
-    margin: 1rem;
 }
 
 #footer .links > *:hover {
